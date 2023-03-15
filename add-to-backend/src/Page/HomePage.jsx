@@ -1,7 +1,34 @@
 import React from 'react'
+import styled from 'styled-components'
+import { ProductList } from '../Component/ProductList'
+import SIdeBar from '../Component/SIdeBar'
 
 export const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <DIV>
+      <div className='sidebar'><SIdeBar /></div>
+      <div className='prolist'><ProductList /></div>
+    </DIV>
   )
 }
+
+
+const DIV = styled.div`
+  display: flex;
+  margin: auto;
+  .sidebar{
+    width: 14%;
+    border: 1px solid teal;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 3%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 30px;
+    text-align: start;
+    padding-left: 20px;
+  }
+  .prolist{
+    width: 90%;
+    margin: auto;
+  }
+`

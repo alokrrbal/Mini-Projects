@@ -3,7 +3,13 @@ import { login } from '../Redux/authReducer/action'
 import { useDispatch, useSelector } from 'react-redux'
 import styled from 'styled-components'
 import "./AllCss.css"
+import { useLocation, useNavigate } from 'react-router-dom'
+
+
 export const Login = () => {
+    const location = useLocation()
+    const navigate = useNavigate()
+    // console.log(location.state)
 
     const dispatch = useDispatch()
     const {isLoading,isAuth,token} = useSelector(store=>{
@@ -30,7 +36,9 @@ export const Login = () => {
 
     const handelSubmit=(e)=>{
         e.preventDefault()
-        dispatch(login(adInput))
+        dispatch(login(adInput)).then(()=>{
+            navigate(location.state , {replace:true})
+        })
         
         setAdInput(initialInput)
     }

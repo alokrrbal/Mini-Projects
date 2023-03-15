@@ -25,6 +25,7 @@ const DIV = styled.div`
     margin-top: 23px;
     padding: 20px;
     background-color: #171a26;
+    border-radius: 30px;
 `;
 
 
