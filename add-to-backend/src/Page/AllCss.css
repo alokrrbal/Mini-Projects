@@ -1,0 +1,12 @@
+.noLog{
+    color: orangered;
+    font-size: 18px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    opacity: 70%;
+}
+.logOn{
+    color: green;
+    font-size: 18px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    opacity: 70%;
+}

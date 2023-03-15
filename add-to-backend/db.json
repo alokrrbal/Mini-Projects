@@ -1,0 +1,222 @@
+{
+  "products": [
+    {
+      "title": "Melange Graphic Tshirt",
+      "price": 670,
+      "orginalPrice": 1099,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/LN7LtFatT8uQTDEh67EA8Ldm",
+      "discount": "39 % OFF",
+      "id": 1,
+      "color": "Blue",
+      "gender": "female",
+      "brand": "LusiX"
+    },
+    {
+      "title": "Logo Pro Tshirt",
+      "price": 609,
+      "orginalPrice": 999,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/bosN4oiAvgN9CuiGygunnAMK",
+      "discount": "39 % OFF",
+      "id": 2,
+      "color": "White",
+      "gender": "female",
+      "brand": "LusiX"
+    },
+    {
+      "title": "Print Pro Tshirt",
+      "price": 733,
+      "orginalPrice": 1999,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/3US9u8J7UnaZV8i9DK8CDMHa",
+      "discount": "39 % OFF",
+      "id": 3,
+      "color": "White",
+      "gender": "female",
+      "brand": "LusiX"
+    },
+    {
+      "title": "Active Pro Tshirt",
+      "price": 670,
+      "orginalPrice": 1099,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/1P9HgY64niMKFCMX5H5UuNCq",
+      "discount": "39 % OFF",
+      "id": 4,
+      "color": "RED",
+      "gender": "female",
+      "brand": "LusiX"
+    },
+    {
+      "title": "T shirt New",
+      "price": 1200,
+      "orginalPrice": 2000,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/J8A2evVVC8XTupi5iy4E67t3",
+      "discount": "23% OFF",
+      "id": 5,
+      "color": "White",
+      "gender": "female",
+      "brand": "LusiX"
+    },
+    {
+      "title": "TRial pro",
+      "price": 12000,
+      "orginalPrice": 200,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/J8A2evVVC8XTupi5iy4E67t3",
+      "discount": "32%",
+      "id": 6,
+      "gender": "male",
+      "brand": "LusiX"
+    },
+    {
+      "title": "NEw Sample",
+      "price": 1200,
+      "orginalPrice": 120000,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/J8A2evVVC8XTupi5iy4E67t3",
+      "discount": "32%",
+      "id": 7,
+      "gender": "male",
+      "brand": "LusiX"
+    },
+    {
+      "title": "UT 3001A26,Black Alloy",
+      "price": 13599,
+      "orginalPrice": 43999,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/92NHJ4vvG38RmGXsLxdQKnCJ",
+      "discount": "69 % OFF",
+      "id": 8,
+      "gender": "male",
+      "brand": "LusiX"
+    },
+    {
+      "title": "UT 3003A26,Black Alloy MTB",
+      "price": 13499,
+      "orginalPrice": 47999,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/9v9sBNMay6wxih67ie1s6Qc4",
+      "discount": "71 % OFF",
+      "id": 9,
+      "gender": "male",
+      "brand": "LusiX"
+    },
+    {
+      "title": "UT 3012A26,Black Alloy MTB",
+      "price": 13999,
+      "orginalPrice": 45990,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/yUFhM6bJRBeQTw27pDfUCLnF",
+      "discount": "69 % OFF",
+      "id": 10,
+      "gender": "male",
+      "brand": "LusiX"
+    },
+    {
+      "title": "UT 3012A26,Black Alloy MTB",
+      "price": 1399,
+      "orginalPrice": 47000,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/gzmRX9u5sKFN4UoC6kLg5rZQ",
+      "discount": "70 % OFF",
+      "id": 11,
+      "gender": "male",
+      "brand": "LusiX"
+    },
+    {
+      "title": "Freak Raw Whey 80% Protin",
+      "price": 1799,
+      "orginalPrice": 2699,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/DcaecB4PJ3kJKtDL18m4gzbA",
+      "discount": "33 % OFF",
+      "id": 12,
+      "gender": "male",
+      "brand": "LusiX"
+    },
+    {
+      "title": "Freak E-lite Whey Isolate",
+      "price": 3099,
+      "orginalPrice": 4399,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/VDxmyWjWBtLAsoecqfLURGkg",
+      "discount": "29 % OFF",
+      "id": 13,
+      "gender": "male",
+      "brand": "LusiX"
+    },
+    {
+      "title": "Freak Raw Whey 100% Protin",
+      "price": 2499,
+      "orginalPrice": 3499,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/ZCAj47EBjCcrTqoJwp38Mvr5",
+      "discount": "30 % OFF",
+      "id": 14,
+      "gender": "male",
+      "brand": "LusiX"
+    },
+    {
+      "title": "Freak Preworkout",
+      "price": 1249,
+      "orginalPrice": 1700,
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/3vrJgyXYZEwJLqaXdtPXe1GA",
+      "discount": "30 % OFF",
+      "id": 15,
+      "gender": "male",
+      "brand": "LusiX"
+    },
+    {
+      "image": "https://www.shopdisney.in/media/catalog/product/cache/701e0f262105ce34201f107f805f3269/s/t/sty-21-22-000378_1_1.jpg",
+      "title": "Choota Pucket",
+      "price": "499",
+      "brand": "Bacca",
+      "discount": "20%",
+      "gender": "kid",
+      "id": 16
+    },
+    {
+      "image": "https://www.shopdisney.in/media/catalog/product/cache/701e0f262105ce34201f107f805f3269/s/t/sty-21-22-000366_1_1.jpg",
+      "title": "Bacca Smal",
+      "price": "599",
+      "brand": "Gucci",
+      "discount": "2%",
+      "gender": "kid",
+      "id": 17
+    },
+    {
+      "image": "https://www.shopdisney.in/media/catalog/product/cache/701e0f262105ce34201f107f805f3269/s/t/sty-21-22-000138_1_1.jpg",
+      "title": "Bela shorts",
+      "price": "699",
+      "brand": "LusiX",
+      "discount": "63%",
+      "gender": "kid",
+      "id": 18
+    },
+    {
+      "image": "https://www.shopdisney.in/media/catalog/product/cache/701e0f262105ce34201f107f805f3269/s/t/sty-21-22-000430_1_1.jpg",
+      "title": "White-kid",
+      "price": "633",
+      "brand": "Luisx",
+      "discount": "6",
+      "gender": "kid",
+      "id": 19
+    },
+    {
+      "image": "https://www.shopdisney.in/media/catalog/product/cache/701e0f262105ce34201f107f805f3269/s/t/sty-21-22-000381_1_1.jpg",
+      "title": "Lope tshit",
+      "price": "654",
+      "brand": "Gucci",
+      "discount": "5",
+      "gender": "kid",
+      "id": 20
+    },
+    {
+      "image": "https://www.shopdisney.in/media/catalog/product/cache/701e0f262105ce34201f107f805f3269/s/t/sty-21-22-000379_1_1.jpg",
+      "title": "HighRate",
+      "price": "678",
+      "brand": "Bacca Bucci",
+      "discount": "50",
+      "gender": "kid",
+      "id": 21
+    },
+    {
+      "title": "BoOm Cycle",
+      "price": "14999",
+      "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/mPsmC4L4z4cwEUR7K2m4DSAG",
+      "discount": "30%",
+      "gender": "male",
+      "brand": "HERO",
+      "id": 22
+    }
+  ]
+}
