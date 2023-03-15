@@ -58,7 +58,7 @@ export const Admin = () => {
                 <option value="kid">KID</option>
             </select>
 
-            <button type='submit'>Submit</button>
+            <button type='submit'>ADD-NOW</button>
         </FORM>
     </DIV>
   )
@@ -72,18 +72,19 @@ export const Admin = () => {
 
 
 const DIV = styled.div`
-width:300px ;
-margin: auto;
-margin-top: 10px;
-
+width:30% ;
+margin: auto;;
 border: 1px solid grey;
 padding: 20px;
+background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/gradient-circle/pink-blur-circle.svg" ) ;
+margin-top: 50px;
+opacity: 80%;
 
 
 
 input{
     width: 80%;
-    height: 50px;
+    height: 40px;
     font-size: large;
 }
 
@@ -92,7 +93,8 @@ button {
     color: white;
     background-color: #008000ea;
     border: 0px;
-    height: 30px;
+    height: 40px;
+    border-radius: 20px;
 }
 
 select{

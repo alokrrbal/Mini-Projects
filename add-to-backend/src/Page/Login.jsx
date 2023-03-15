@@ -40,12 +40,13 @@ export const Login = () => {
         {isAuth?<h5 className='logOn'>Login Success-TOKEN-{token.token}</h5>:<h5 className='noLog'>Please Login Now</h5>}
         <form onSubmit={handelSubmit}>
             <label >
-                EMAIL-: 
+                EMAIL-: <br />
                 <input type="text" value={adInput.email} name="email" onChange={handelOnChange} placeholder='Enter Your Email' />
             </label>
             <br />
+            <br />
             <label >
-                PASSWORD-: 
+                PASSWORD-: <br />
                 <input type="password" value={adInput.password} name="password" onChange={handelOnChange} placeholder='Enter Your Password'/>
             </label>
             <br />
@@ -63,7 +64,7 @@ const DIV = styled.div`
     margin-top: 40px;
     background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/gradient-circle/pink-blur-circle.svg" ) ;
     background-color: #171a26;
-    height: 400px;
+    height: 450px;
     opacity: 96%;
     border-radius: 30px;
     h2{
@@ -76,26 +77,31 @@ const DIV = styled.div`
     }
 
     input{
-        width: 60%;
+        width: 80%;
         background-color: white;
-        margin-left: 30px;
         margin-top: 20px;
         height: 30px;
         opacity: 70%;
+        border-radius: 20px;
+        text-align: center;
     }
     form{
         /* border: 1px solid red; */
         margin-top: 10%;
+        text-align: start;
+        padding-left: 10%;
     }
     button{
         background-color: green;
         color: white;
         font-size: large;
-        margin-top: 30px;
+        margin-top: 20px;
         padding: 15px;
         border: 0px;
         border-radius: 20px;
         cursor: pointer;
+       text-align: center;
+       margin-left: 30%;
     }
 `
 
