@@ -7,6 +7,7 @@ const SIdeBar = () => {
     const preCategory = searchParams.getAll("category")
 
     const [category , setCategory] = useState(preCategory || [])
+    const [order , setOrder] = useState("")
 
     // console.log(searchParams)
 
@@ -25,15 +26,22 @@ const SIdeBar = () => {
         
     }
 
+    const handelSortChange = (e)=>{
+        // console.log(e.target.value)
+        setOrder(e.target.value)
+    }
+
     useEffect(()=>{
 
         const params = {
-            category
+            category,
          }
+
+         order && setSearchParams(params.order=order)
 
          setSearchParams(params)
 
-    },[category])
+    },[category,order])
 
   return (
     <div>
@@ -50,6 +58,16 @@ const SIdeBar = () => {
         <div>
             <input type="checkbox" value={"kid"} onChange={handelOnChange} checked={category.includes("kid")} />
             <label>KID</label>
+        </div>
+
+        <h3>Sort By Price</h3>
+
+        <div onChange={handelSortChange}>
+            <label>Ascending</label>
+            <input type="radio" name='order' value={"asc"} defaultChecked={order==="asc"}/>
+            <br />
+            <label>Descending </label>
+            <input type="radio" name='order' value={"desc"} defaultChecked={order==="desc"} />
         </div>
     </div>
   )

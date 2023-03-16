@@ -9,6 +9,7 @@ import { useLocation, useSearchParams } from 'react-router-dom'
 export const ProductList = () => {
     const [searchParams] = useSearchParams()
     // console.log(searchParams.getAll("category"))
+  console.log (searchParams.get("order"))
 
     const dispatch = useDispatch()
 
@@ -20,8 +21,11 @@ export const ProductList = () => {
     // console.log(location)
     let objParam = {
         params:{
-            gender:searchParams.getAll("category")
+            gender:searchParams.getAll("category"),
+            _order:searchParams.get("order"),
+            _sort:searchParams.get("order") && "price"
         }
+
     }
 
 useEffect(()=>{

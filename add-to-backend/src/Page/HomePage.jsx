@@ -19,11 +19,11 @@ const DIV = styled.div`
   .sidebar{
     width: 14%;
     border: 1px solid teal;
-    height: 200px;
+    height: 300px;
     margin-top: 30px;
     margin-left: 3%;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    border-radius: 30px;
+    border-radius: 20px;
     text-align: start;
     padding-left: 20px;
   }
