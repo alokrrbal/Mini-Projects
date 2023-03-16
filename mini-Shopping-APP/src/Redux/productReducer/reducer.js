@@ -1,4 +1,4 @@
-import { ADD_PRODUCT_SUCCESS, ADD_TO_CART_SUCCESS, GET_PRODUCT_SUCCESS, PRODUCT_FAIL, PRODUCT_REQUEST } from "./actionType"
+import { ADD_PRODUCT_SUCCESS, ADD_TO_CART_SUCCESS, EDITE_SUCCESS, GET_PRODUCT_SUCCESS, PRODUCT_FAIL, PRODUCT_REQUEST } from "./actionType"
 
 const initialState = {
     isLoading:false,
@@ -25,6 +25,9 @@ export const reducer = (state=initialState,{type,payload})=>{
         }
         case ADD_TO_CART_SUCCESS:{
             return{...state,cartData:[...state.cartData,payload]}
+        }
+        case EDITE_SUCCESS:{
+            return{...state}
         }
         default:{
             return state
