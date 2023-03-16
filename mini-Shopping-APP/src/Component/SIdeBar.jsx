@@ -5,7 +5,7 @@ const SIdeBar = () => {
 
     const [searchParams , setSearchParams] = useSearchParams()
     const preCategory = searchParams.getAll("category")
-    const preOrder = useSearchParams.get("order")
+    const preOrder = searchParams.get("order")
 
     const [category , setCategory] = useState(preCategory || [])
     const [order , setOrder] = useState( preOrder ||"")

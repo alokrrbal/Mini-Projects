@@ -7,7 +7,7 @@ export const NavBar = () => {
     <DIV>
         
         <Link className="Nlink" to="/">Shopping MINI</Link>
-        <Link className="Nlink" to="/">HOME</Link>
+        <Link className="Nlink" to="/cart">CART</Link>
         <Link className="Nlink" to="/admin">ADMIN</Link>
         <Link  className="Nlink"to="/login">LOGIN</Link>
     </DIV>

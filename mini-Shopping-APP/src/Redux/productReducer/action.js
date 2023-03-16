@@ -1,5 +1,5 @@
 import axios from "axios"
-import { ADD_PRODUCT_SUCCESS, GET_PRODUCT_SUCCESS, PRODUCT_FAIL, PRODUCT_REQUEST } from "./actionType"
+import { ADD_PRODUCT_SUCCESS, ADD_TO_CART_SUCCESS, GET_PRODUCT_SUCCESS, PRODUCT_FAIL, PRODUCT_REQUEST } from "./actionType"
 
 
 export const addProduct = (inputProData) => (dispatch) =>{
@@ -30,4 +30,14 @@ export const getProduct = (paramObj)=> (dispatch)=>{
      .catch(()=>{
         dispatch({type:PRODUCT_FAIL})
      })
+}
+
+export const addToCart = (id) => (dispatch) =>{
+
+
+    axios.get(`http://localhost:6969/products/${id}`)
+    .then((res)=>{
+        // console.log(res.data)
+        dispatch({type:ADD_TO_CART_SUCCESS,payload:res.data})
+    })
 }

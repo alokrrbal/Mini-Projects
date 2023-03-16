@@ -9,7 +9,7 @@ import { useLocation, useSearchParams } from 'react-router-dom'
 export const ProductList = () => {
     const [searchParams] = useSearchParams()
     // console.log(searchParams.getAll("category"))
-  console.log (searchParams.get("order"))
+//   console.log (searchParams.get("order"))
 
     const dispatch = useDispatch()
 
