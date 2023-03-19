@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { editeProduct } from '../Redux/productReducer/action'
 import styled from 'styled-components'
 
 export const EditProduct = () => {
+  const navigate = useNavigate()
 
   const {id} = useParams()
   const {product} = useSelector(store=>store.productReducer)
@@ -27,6 +28,7 @@ export const EditProduct = () => {
     dispatch(editeProduct(data,id))
     .then(()=>{
       alert("Product Edited Successfully")
+      navigate("/")
     })
     
   }
