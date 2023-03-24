@@ -46,7 +46,7 @@ const SIdeBar = () => {
 
   return (
     <div>
-        <h3>Filter By</h3>
+        <h3>Filter By Category</h3>
 
         <div>
             <input type="checkbox" value={"male"} onChange={handelOnChange} checked={category.includes("male")}/>
