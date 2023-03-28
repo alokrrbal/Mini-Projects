@@ -7,8 +7,9 @@ export const addProduct = (inputProData) => (dispatch) =>{
 
     dispatch({type:PRODUCT_REQUEST})
 
-    axios.post("http://localhost:6969/products",inputProData)
+    return axios.post(`https://jolly-hose-hen.cyclic.app/products`,inputProData)
     .then((res)=>{
+        console.log(res)
         dispatch({type:ADD_PRODUCT_SUCCESS , payload:res.data})
     })
     .catch(()=>dispatch({type:PRODUCT_FAIL}))
@@ -22,9 +23,10 @@ export const getProduct = (paramObj)=> (dispatch)=>{
     dispatch({type:PRODUCT_REQUEST})
 
     axios
-     .get('http://localhost:6969/products',paramObj)
+     .get('https://jolly-hose-hen.cyclic.app/products',paramObj)
+    //  .get('http://localhost:6969/products',paramObj)
      .then((res)=>{
-        // console.log(res.data)
+        console.log(res.data)
         dispatch({type:GET_PRODUCT_SUCCESS,payload:res.data})
      })
      .catch(()=>{
@@ -35,7 +37,7 @@ export const getProduct = (paramObj)=> (dispatch)=>{
 export const addToCart = (id) => (dispatch) =>{
 
 
-    axios.get(`http://localhost:6969/products/${id}`)
+    axios.get(`https://jolly-hose-hen.cyclic.app/products/${id}`)
     .then((res)=>{
         // console.log(res.data)
         dispatch({type:ADD_TO_CART_SUCCESS,payload:res.data})
@@ -45,8 +47,12 @@ export const addToCart = (id) => (dispatch) =>{
 
 export const editeProduct = (data,id) =>(dispatch)=>{
 
-    return axios.patch(`http://localhost:6969/products/${id}`,data)
+    return axios.patch(`https://jolly-hose-hen.cyclic.app/products/${id}`,data)
     .then(()=>{
         dispatch({type:EDITE_SUCCESS})
     })
+}
+
+export const deleteProduct = (id)=> {
+     axios.delete(`https://jolly-hose-hen.cyclic.app/products/${id}`)
 }

@@ -1,16 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import styled from 'styled-components'
 import "./AllCss.css"
  const CartPage = () => {
 
     const {cartData} = useSelector(store => store.productReducer)
+    
 
-    console.log(cartData)
 
   return (
     <div>
-        <h1 className='cWel'>HABIBI WELCOME TO CART PAGE !</h1>
+        <h1 className='cWel'>HEY WELCOME TO CART PAGE !</h1>
         <div className='mainCartDiv'>
             {cartData.length > 0 ?
             

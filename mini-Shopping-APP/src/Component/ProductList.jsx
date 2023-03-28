@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getProduct } from '../Redux/productReducer/action'
 import { Productcard } from './Productcard'
@@ -12,6 +12,7 @@ export const ProductList = () => {
 //   console.log (searchParams.get("order"))
 
     const dispatch = useDispatch()
+    const [update , setUpdate] = useState(false)
 
     const {isLoading ,product} = useSelector(store=>{
         return(store.productReducer)
@@ -33,7 +34,7 @@ useEffect(()=>{
 
     dispatch(getProduct(objParam))
 
-},[location.search])
+},[location.search , update])
 
   return (
     <DIV>
@@ -48,7 +49,7 @@ useEffect(()=>{
 
 
         {product.length > 0 && product.map((itm)=>(
-            <Productcard key={itm.id} {...itm} />
+            <Productcard key={itm.id} {...itm} update={setUpdate} />
         ))}
     </DIV>
   )

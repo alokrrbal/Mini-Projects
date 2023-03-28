@@ -21,7 +21,8 @@ export const Admin = () => {
   const [product , setProduct ] = useState(initialProduct);
 
   const handelOnchange = (e)=>{
-    const {name,value} = e.target
+    const value = e.target.name =="price" ? +e.target.value :e.target.value
+    const {name} = e.target
 
     setProduct((pre)=>{
       return {...pre , [name]:value}
@@ -33,6 +34,7 @@ export const Admin = () => {
     e.preventDefault()
 
     dispatch(addProduct(product))
+    .then(()=> alert("Product Added Sucessfully"))
 
     // console.log(product)
     setProduct(initialProduct)
@@ -95,6 +97,7 @@ button {
     border: 0px;
     height: 40px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 select{
